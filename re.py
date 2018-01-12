@@ -9,3 +9,7 @@ for line in cf.readlines():
 
 
 """
+
+string = 'hosam elnabawy ahmed'
+
+print(string.startswith('menna'))

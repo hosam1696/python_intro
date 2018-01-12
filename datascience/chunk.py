@@ -18,6 +18,7 @@ def main():
     print('this will be chunk function implementation')
     list = ['hosam', 'menna',True , 161996, 1996]
     chuncked = chunk(list, 2)
+    print(chuncked)
     for val in list:
         if isinstance(val, int):
             print(val, 'this is a function')
