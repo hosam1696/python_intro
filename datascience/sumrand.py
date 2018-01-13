@@ -4,7 +4,7 @@ nums = [num * random.randrange(10, 25) for num in range(1, 6)]
 print(sum(nums, 0), nums)
 
 areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
-sumareas = [i for i in areas if isinstance(i, float)] # range only costs in independent list
+sumareas = [i for i in areas if isinstance(i, float) or isinstance(i, int)] # range only costs in independent list
 print(sumareas)
 
 # Sum of kitchen and bedroom area: eat_sleep_area
