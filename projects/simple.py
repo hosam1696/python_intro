@@ -1,4 +1,4 @@
-import bits
+from projects import bits
 
 def main():
     class Hosam:
@@ -11,6 +11,8 @@ def main():
     x = (Hosam(), 'Menna')
 
     print(x, Hosam().say(), sep='\n')
+
+    print(bits.AND(2,4))
 
 
 if __name__ == '__main__':
