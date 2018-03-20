@@ -5,3 +5,6 @@ for k in range(10000):
 print(acc * 4)
 
 print(4 * sum(pow(-1, k) / (2 * k + 1) for k in range(10000)))
+
+
+sorted([10,2,6],reverse=True)
