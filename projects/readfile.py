@@ -12,3 +12,5 @@ with open('f.txt') as f:
     for line in file.readlines():
         print(line, end='')
     print(''.join(data))
+
+
