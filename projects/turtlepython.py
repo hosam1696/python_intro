@@ -43,5 +43,10 @@ class Draw_turtle():
             cb(self.hosam)
             self.hosam.left(i)
 
-
 drawturtle = Draw_turtle()
+
+def log_name(name: str, age: int):
+    print(f'> Name: {name}\n>Age: {age}')
+
+log_name(545, 545)
+
