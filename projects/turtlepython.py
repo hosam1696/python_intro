@@ -50,3 +50,5 @@ def log_name(name: str, age: int):
 
 log_name(545, 545)
 
+million = 1_000_000
+
