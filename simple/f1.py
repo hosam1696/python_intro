@@ -21,4 +21,10 @@ for i in range(2):
     print('+-----+'*2)
     for i in range(3):
         printSep()
-print('+-----+'*2)
+print('+-----+' * 2)
+
+newdict = {'x':'asdsdsd'}
+print(newdict)
+
+print('ssdkfjsdlf {}'.format(newdict['x']))
+

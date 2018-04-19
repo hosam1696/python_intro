@@ -1,0 +1,11 @@
+{
+  "people": [{
+    "name": "Hosam Elnabawy",
+    "age": 22,
+    "love": "Menna Allah Mohamed"
+  },{
+    "name": "Menna Allah",
+    "age": 22,
+    "love": "Hosm Elnabawy"
+  }]
+}

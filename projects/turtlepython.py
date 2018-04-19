@@ -19,10 +19,12 @@ class Draw_turtle():
         self.hosam.speed(10)
 
     def render(self):
-        self.loop_in_circle(self.draw_rectangle)
-        """self.hosam.begin_fill()
-        self.hosam.end_fill()"""
-        self.window.exitonclick()
+        self.hosam.right(90)
+        self.hosam.fd(100)
+        """self.loop_in_circle(self.draw_rectangle)
+        self.hosam.begin_fill()
+        self.hosam.end_fill()
+        self.window.exitonclick()"""
 
     @staticmethod
     def draw_square(turtle):
